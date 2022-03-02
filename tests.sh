@@ -97,5 +97,5 @@ then
 	printf "\e[1;31m: $case difference in output, coutput is orig, output my and the example is in example_ !\e[0m\n"
 	exit 2
 fi
-rm -rf badfile *file* coutput output
+rm -rf badfile file* testfile* coutput output
 printf "\e[1;32mOK\e[0m \n"
